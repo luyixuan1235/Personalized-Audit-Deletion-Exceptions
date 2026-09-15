@@ -1,0 +1,59 @@
+{
+  "CF": {
+    "acc": 84.0608,
+    "fgr": 15.812,
+    "routine": 11.6242,
+    "exception": 37.1094,
+    "n_exc": 256,
+    "ratio": 3.1924,
+    "majority": "train"
+  },
+  "IC": {
+    "acc": 86.0651,
+    "fgr": 14.9606,
+    "routine": 11.9703,
+    "exception": 23.2394,
+    "n_exc": 284,
+    "ratio": 1.9414,
+    "majority": "train"
+  },
+  "IC+CF": {
+    "acc": 85.0062,
+    "fgr": 18.3468,
+    "routine": 12.3043,
+    "exception": 28.2051,
+    "n_exc": 273,
+    "ratio": 2.2923,
+    "majority": "train"
+  },
+  "_sensitivity_test": {
+    "CF": {
+      "acc": 84.0608,
+      "fgr": 15.812,
+      "routine": 11.9497,
+      "exception": 37.0833,
+      "n_exc": 240,
+      "ratio": 3.1033,
+      "majority": "test"
+    },
+    "IC": {
+      "acc": 86.0651,
+      "fgr": 14.9606,
+      "routine": 12.0739,
+      "exception": 25.7919,
+      "n_exc": 221,
+      "ratio": 2.1362,
+      "majority": "test"
+    },
+    "IC+CF": {
+      "acc": 85.0062,
+      "fgr": 18.3468,
+      "routine": 13.0995,
+      "exception": 27.1889,
+      "n_exc": 217,
+      "ratio": 2.0756,
+      "majority": "test"
+    }
+  },
+  "_primary": "m_u=train"
+}

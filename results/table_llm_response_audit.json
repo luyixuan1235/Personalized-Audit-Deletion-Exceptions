@@ -1,0 +1,52 @@
+{
+  "ic_only_predictions": {
+    "file": "ic_only_predictions.json",
+    "participants": 181,
+    "expected_decisions": 578,
+    "parsed_predictions": 575,
+    "missing_decisions": 3,
+    "invalid_labels": 0,
+    "duplicate_predictions": 0,
+    "decision_coverage_pct": 99.48
+  },
+  "ic_cf_predictions": {
+    "file": "ic_cf_predictions.json",
+    "participants": 181,
+    "expected_decisions": 578,
+    "parsed_predictions": 571,
+    "missing_decisions": 7,
+    "invalid_labels": 0,
+    "duplicate_predictions": 0,
+    "decision_coverage_pct": 98.79
+  },
+  "ic_only_gpt4omini_predictions": {
+    "file": "ic_only_gpt4omini_predictions.json",
+    "participants": 181,
+    "expected_decisions": 578,
+    "parsed_predictions": 578,
+    "missing_decisions": 0,
+    "invalid_labels": 0,
+    "duplicate_predictions": 0,
+    "decision_coverage_pct": 100.0
+  },
+  "ic_only_predictions_o4mini": {
+    "file": "ic_only_predictions_o4mini.json",
+    "participants": 181,
+    "expected_decisions": 578,
+    "parsed_predictions": 575,
+    "missing_decisions": 3,
+    "invalid_labels": 0,
+    "duplicate_predictions": 0,
+    "decision_coverage_pct": 99.48
+  },
+  "ic_only_promptvar_predictions": {
+    "file": "ic_only_promptvar_predictions.json",
+    "participants": 181,
+    "expected_decisions": 578,
+    "parsed_predictions": 572,
+    "missing_decisions": 6,
+    "invalid_labels": 0,
+    "duplicate_predictions": 0,
+    "decision_coverage_pct": 98.96
+  }
+}

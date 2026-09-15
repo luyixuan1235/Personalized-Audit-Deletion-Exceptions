@@ -1,0 +1,18 @@
+{
+ "natural base rate (0.69)": {
+  "permissive_refusals": 27.9,
+  "restrictive_consents": 27.8
+ },
+ "natural base rate (0.69) + per-user weight": {
+  "permissive_refusals": 29.1,
+  "restrictive_consents": 22.4
+ },
+ "balanced base rate (0.50)": {
+  "permissive_refusals": 42.1,
+  "restrictive_consents": 24.5
+ },
+ "balanced base rate (0.50) + per-user weight": {
+  "permissive_refusals": 41.1,
+  "restrictive_consents": 21.2
+ }
+}

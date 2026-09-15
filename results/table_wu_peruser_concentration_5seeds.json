@@ -1,0 +1,70 @@
+{
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "eta": 0.9871785044670105,
+      "aggregate_fpr": 17.748865776786847,
+      "fpr_median": 0.0,
+      "fpr_mean": 16.423359061461042,
+      "top25": 76.87687687687688,
+      "perm_p_top25": 0.0,
+      "n_users": 353
+    },
+    "123": {
+      "seed": 123,
+      "eta": 0.9819877743721008,
+      "aggregate_fpr": 18.46396708797649,
+      "fpr_median": 0.0,
+      "fpr_mean": 18.923001909817323,
+      "top25": 73.88888888888889,
+      "perm_p_top25": 0.0,
+      "n_users": 348
+    },
+    "456": {
+      "seed": 456,
+      "eta": 0.9800665378570557,
+      "aggregate_fpr": 17.872159857979238,
+      "fpr_median": 0.0,
+      "fpr_mean": 16.855424587229173,
+      "top25": 73.07692307692308,
+      "perm_p_top25": 0.0,
+      "n_users": 354
+    },
+    "789": {
+      "seed": 789,
+      "eta": 0.9917697310447693,
+      "aggregate_fpr": 18.71301445053846,
+      "fpr_median": 0.0,
+      "fpr_mean": 18.93974031480316,
+      "top25": 70.50561797752809,
+      "perm_p_top25": 0.0,
+      "n_users": 351
+    },
+    "1024": {
+      "seed": 1024,
+      "eta": 0.9905769228935242,
+      "aggregate_fpr": 18.500939940453538,
+      "fpr_median": 0.0,
+      "fpr_mean": 18.471942824389686,
+      "top25": 71.7877094972067,
+      "perm_p_top25": 0.0,
+      "n_users": 357
+    }
+  },
+  "aggregate": {
+    "top25_mean": 73.22720326348474,
+    "top25_std": 2.411415469051288,
+    "median_mean": 0.0,
+    "median_std": 0.0,
+    "aggregate_fpr_mean": 18.259789422746913,
+    "aggregate_fpr_std": 0.42324776091212996
+  },
+  "note": "seed=42 is the primary table21_peruser.json used by fig-peruser-fpr."
+}

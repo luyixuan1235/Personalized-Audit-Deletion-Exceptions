@@ -1,0 +1,221 @@
+{
+ "CF": {
+  "m_u=test": {
+   "exc": 37.1,
+   "routine": 11.9,
+   "ratio": 3.1,
+   "n_exc": 240
+  },
+  "m_u=train": {
+   "exc": 38.1,
+   "routine": 11.1,
+   "ratio": 3.43,
+   "n_exc": 270
+  },
+  "m_u=full": {
+   "exc": 40.2,
+   "routine": 10.9,
+   "ratio": 3.67,
+   "n_exc": 259
+  },
+  "cluster_CI": {
+   "exc": [
+    31.3,
+    45.3
+   ],
+   "routine": [
+    8.8,
+    13.5
+   ],
+   "ratio": [
+    2.58,
+    4.65
+   ]
+  },
+  "perm_null": {
+   "observed": 3.43,
+   "null_mean": 1.5,
+   "null_95": [
+    1.17,
+    1.81
+   ],
+   "p": 0.0
+  },
+  "margin_strata": {
+   "|r-.5|<=0.1": {
+    "exc": 43.8,
+    "routine": 22.5,
+    "ratio": 1.94,
+    "n_exc": 48
+   },
+   "0.1-0.3": {
+    "exc": 40.3,
+    "routine": 12.9,
+    "ratio": 3.13,
+    "n_exc": 139
+   },
+   "0.3-0.5": {
+    "exc": 33.7,
+    "routine": 9.7,
+    "ratio": 3.47,
+    "n_exc": 89
+   }
+  },
+  "symmetry": {
+   "perm_refusals": 27.1,
+   "n_pr": 192,
+   "restr_consents": 65.4,
+   "n_rc": 78,
+   "diff_CI": [
+    -55.3,
+    -21.5
+   ]
+  }
+ },
+ "IC": {
+  "m_u=test": {
+   "exc": 25.8,
+   "routine": 12.1,
+   "ratio": 2.14,
+   "n_exc": 221
+  },
+  "m_u=train": {
+   "exc": 23.2,
+   "routine": 12.0,
+   "ratio": 1.94,
+   "n_exc": 284
+  },
+  "m_u=full": {
+   "exc": 26.1,
+   "routine": 11.7,
+   "ratio": 2.24,
+   "n_exc": 257
+  },
+  "cluster_CI": {
+   "exc": [
+    17.1,
+    29.8
+   ],
+   "routine": [
+    9.8,
+    14.4
+   ],
+   "ratio": [
+    1.36,
+    2.66
+   ]
+  },
+  "perm_null": {
+   "observed": 1.94,
+   "null_mean": 1.55,
+   "null_95": [
+    1.24,
+    1.9
+   ],
+   "p": 0.02
+  },
+  "margin_strata": {
+   "|r-.5|<=0.1": {
+    "exc": 10.3,
+    "routine": 27.3,
+    "ratio": 0.38,
+    "n_exc": 58
+   },
+   "0.1-0.3": {
+    "exc": 19.8,
+    "routine": 18.2,
+    "ratio": 1.09,
+    "n_exc": 121
+   },
+   "0.3-0.5": {
+    "exc": 34.3,
+    "routine": 8.5,
+    "ratio": 4.05,
+    "n_exc": 105
+   }
+  },
+  "symmetry": {
+   "perm_refusals": 20.5,
+   "n_pr": 219,
+   "restr_consents": 32.3,
+   "n_rc": 65,
+   "diff_CI": [
+    -32.9,
+    7.5
+   ]
+  }
+ },
+ "IC+CF": {
+  "m_u=test": {
+   "exc": 27.2,
+   "routine": 13.1,
+   "ratio": 2.08,
+   "n_exc": 217
+  },
+  "m_u=train": {
+   "exc": 28.2,
+   "routine": 12.3,
+   "ratio": 2.29,
+   "n_exc": 273
+  },
+  "m_u=full": {
+   "exc": 30.2,
+   "routine": 12.2,
+   "ratio": 2.47,
+   "n_exc": 248
+  },
+  "cluster_CI": {
+   "exc": [
+    21.2,
+    35.6
+   ],
+   "routine": [
+    10.0,
+    14.7
+   ],
+   "ratio": [
+    1.63,
+    3.15
+   ]
+  },
+  "perm_null": {
+   "observed": 2.29,
+   "null_mean": 1.61,
+   "null_95": [
+    1.31,
+    1.96
+   ],
+   "p": 0.0005
+  },
+  "margin_strata": {
+   "|r-.5|<=0.1": {
+    "exc": 17.6,
+    "routine": 25.7,
+    "ratio": 0.69,
+    "n_exc": 51
+   },
+   "0.1-0.3": {
+    "exc": 23.9,
+    "routine": 15.0,
+    "ratio": 1.6,
+    "n_exc": 117
+   },
+   "0.3-0.5": {
+    "exc": 38.1,
+    "routine": 10.3,
+    "ratio": 3.7,
+    "n_exc": 105
+   }
+  },
+  "symmetry": {
+   "perm_refusals": 25.6,
+   "n_pr": 207,
+   "restr_consents": 36.4,
+   "n_rc": 66,
+   "diff_CI": [
+    -30.6,
+    9.3
+   ]
+  }
+ }
+}

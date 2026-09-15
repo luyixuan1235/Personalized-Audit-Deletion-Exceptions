@@ -1,0 +1,125 @@
+{
+ "curve": {
+  "budget=0.0": {
+   "coverage": 1.0,
+   "routine": 0.05885167464114833,
+   "exception": 0.2923433874709977,
+   "fgr": 0.1250539025442001,
+   "perm_refusals": 0.2537154989384289,
+   "exc_deferred": 0.0,
+   "deferred_true_denials_share_of_all": 0.0,
+   "n_exc": 1293,
+   "n_perm_ref": 942
+  },
+  "budget=0.1": {
+   "coverage": 0.8999074441359249,
+   "routine": 0.04154929577464789,
+   "exception": 0.2699822380106572,
+   "fgr": 0.10097719869706841,
+   "perm_refusals": 0.22195121951219512,
+   "exc_deferred": 0.12915699922660484,
+   "deferred_true_denials_share_of_all": 0.022477852703953458,
+   "n_exc": 1126,
+   "n_perm_ref": 820
+  },
+  "budget=0.2": {
+   "coverage": 0.7999471109348142,
+   "routine": 0.03031488362996284,
+   "exception": 0.23265741728922093,
+   "fgr": 0.06700507614213198,
+   "perm_refusals": 0.1678622668579627,
+   "exc_deferred": 0.2753286929621036,
+   "deferred_true_denials_share_of_all": 0.046145709374586806,
+   "n_exc": 937,
+   "n_perm_ref": 697
+  },
+  "budget=0.25": {
+   "coverage": 0.7499669443342589,
+   "routine": 0.02852977925864223,
+   "exception": 0.2160919540229885,
+   "fgr": 0.05324196099103848,
+   "perm_refusals": 0.1411042944785276,
+   "exc_deferred": 0.3271461716937355,
+   "deferred_true_denials_share_of_all": 0.05579796377099035,
+   "n_exc": 870,
+   "n_perm_ref": 652
+  },
+  "budget=0.3": {
+   "coverage": 0.6999867777337035,
+   "routine": 0.028775373633727414,
+   "exception": 0.2034525277435265,
+   "fgr": 0.043243243243243246,
+   "perm_refusals": 0.11793214862681745,
+   "exc_deferred": 0.3727764887857695,
+   "deferred_true_denials_share_of_all": 0.06201242893031866,
+   "n_exc": 811,
+   "n_perm_ref": 619
+  },
+  "budget=0.4": {
+   "coverage": 0.6000264445325929,
+   "routine": 0.032300767805136354,
+   "exception": 0.19053876478318002,
+   "fgr": 0.03402854006586169,
+   "perm_refusals": 0.09411764705882353,
+   "exc_deferred": 0.411446249033256,
+   "deferred_true_denials_share_of_all": 0.06571466349332275,
+   "n_exc": 761,
+   "n_perm_ref": 595
+  },
+  "budget=0.5": {
+   "coverage": 0.4999338886685178,
+   "routine": 0.03635183382018825,
+   "exception": 0.17285714285714285,
+   "fgr": 0.02212138400453772,
+   "perm_refusals": 0.06159420289855073,
+   "exc_deferred": 0.4586233565351895,
+   "deferred_true_denials_share_of_all": 0.07351580060822425,
+   "n_exc": 700,
+   "n_perm_ref": 552
+  },
+  "budget=0.6": {
+   "coverage": 0.3999735554674071,
+   "routine": 0.041999160016799666,
+   "exception": 0.16459627329192547,
+   "fgr": 0.013969732246798603,
+   "perm_refusals": 0.04198473282442748,
+   "exc_deferred": 0.5019334880123743,
+   "deferred_true_denials_share_of_all": 0.07946582044162369,
+   "n_exc": 644,
+   "n_perm_ref": 524
+  }
+ },
+ "system_sensitivity_40": {
+  "e=0.0": {
+   "harmful_grant_rate": 0.008197805103794791
+  },
+  "e=0.05": {
+   "harmful_grant_rate": 0.01148353827846093
+  },
+  "e=0.1": {
+   "harmful_grant_rate": 0.014769271453127068
+  },
+  "e=0.2": {
+   "harmful_grant_rate": 0.02134073780245934
+  },
+  "no_deferral_baseline": 0.03834457225968531
+ },
+ "cluster_ci_40": {
+  "exception": [
+   0.14174049025211152,
+   0.24878940398577565
+  ],
+  "fgr": [
+   0.02378449883254103,
+   0.048554139649078155
+  ],
+  "perm_refusals": [
+   0.06810158211647692,
+   0.1232692481884058
+  ]
+ },
+ "n_at_40": {
+  "n_exc": 761,
+  "n_perm_ref": 595
+ }
+}

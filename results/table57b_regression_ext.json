@@ -1,0 +1,46 @@
+{
+ "contra_habit": {
+  "coef": 2.189840316772461,
+  "ci95": [
+   1.9188125133514404,
+   2.495501756668091
+  ]
+ },
+ "contra_crowd": {
+  "coef": 1.8361247777938843,
+  "ci95": [
+   1.644231915473938,
+   2.104890823364258
+  ]
+ },
+ "interaction": {
+  "coef": -0.7157241106033325,
+  "ci95": [
+   -1.109839677810669,
+   -0.34512829780578613
+  ]
+ },
+ "log_support": {
+  "coef": 2.490417718887329,
+  "ci95": [
+   -10.470450401306152,
+   4.46347188949585
+  ]
+ },
+ "log_histlen": {
+  "coef": 0.5085834264755249,
+  "ci95": [
+   0.3355084955692291,
+   0.7640913128852844
+  ]
+ },
+ "novel_conj": {
+  "coef": 2.3950531482696533,
+  "ci95": [
+   -6.5020341873168945,
+   3.9043314456939697
+  ]
+ },
+ "n": 7560,
+ "note": "logit(override) ~ contra_habit + contra_crowd + interaction + log1p(support) + log(user history length) + first-of-kind flag + data-type FE; FM/bce, Wu, 5-fold; decision bootstrap 100x"
+}

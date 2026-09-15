@@ -1,0 +1,24 @@
+{
+ "baseline": {
+  "exc": 32.6,
+  "routine": 16.6,
+  "fgr": 10.4,
+  "harmed": 20.4,
+  "n": 756.0,
+  "n_harmed": 71.0
+ },
+ "layer": {
+  "exc": 24.6,
+  "routine": 8.8,
+  "fgr": 5.2,
+  "harmed": 11.7,
+  "n": 453.0,
+  "n_harmed": 47.5
+ },
+ "coverage": 0.6,
+ "n_tau": [
+  60,
+  51
+ ],
+ "note": "released CF's own test scores; alternate-half calibration, swap-averaged; 40% budget"
+}

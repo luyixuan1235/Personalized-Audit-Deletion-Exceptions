@@ -1,0 +1,51 @@
+{
+ "base": {
+  "acc": 90.6,
+  "exc": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "restr_consents": 26.8
+ },
+ "user_domain_n0=1.0": {
+  "acc": 90.6,
+  "exc": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "restr_consents": 26.8
+ },
+ "user_domain_n0=3.0": {
+  "acc": 90.6,
+  "exc": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "restr_consents": 26.8
+ },
+ "user_domain_n0=10.0": {
+  "acc": 90.6,
+  "exc": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "restr_consents": 26.8
+ },
+ "user_tool_n0=1.0": {
+  "acc": 90.6,
+  "exc": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "restr_consents": 26.8
+ },
+ "user_tool_n0=3.0": {
+  "acc": 90.6,
+  "exc": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "restr_consents": 26.8
+ },
+ "user_tool_n0=10.0": {
+  "acc": 90.6,
+  "exc": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "restr_consents": 26.8
+ }
+}

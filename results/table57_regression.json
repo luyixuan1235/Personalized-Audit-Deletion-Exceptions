@@ -1,0 +1,32 @@
+{
+ "contra_habit": {
+  "coef": 2.114135980606079,
+  "ci95": [
+   1.8460296392440796,
+   2.4164681434631348
+  ]
+ },
+ "contra_crowd": {
+  "coef": 1.7994555234909058,
+  "ci95": [
+   1.6192089319229126,
+   2.056434154510498
+  ]
+ },
+ "interaction": {
+  "coef": -0.6352857351303101,
+  "ci95": [
+   -1.0188381671905518,
+   -0.278201162815094
+  ]
+ },
+ "log_support": {
+  "coef": -0.6928020119667053,
+  "ci95": [
+   -1.2973378896713257,
+   -0.26409631967544556
+  ]
+ },
+ "n": 7560,
+ "note": "logit(override) ~ contra_habit + contra_crowd + interaction + log1p(user-conjunction support) + data-type FE; FM/bce, Wu, 5-fold; decision bootstrap 100x"
+}

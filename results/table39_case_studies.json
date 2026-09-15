@@ -1,0 +1,92 @@
+[
+ {
+  "user_grant": 0.92,
+  "dtype": "PregnancyPal,Medical/pregnancy history",
+  "crowd_grant": 0.73,
+  "decision": "DENY",
+  "model": "grant",
+  "conf": 0.9,
+  "query": "Based on my current weight, dietary habits, and pregnancy complication"
+ },
+ {
+  "user_grant": 0.9,
+  "dtype": "Calendar,Travel details",
+  "crowd_grant": 0.0,
+  "decision": "DENY",
+  "model": "grant",
+  "conf": 0.85,
+  "query": "Find the contract document for my upcoming client meeting and attach i"
+ },
+ {
+  "user_grant": 0.89,
+  "dtype": "LLM,Exercise logs",
+  "crowd_grant": 0.67,
+  "decision": "DENY",
+  "model": "grant",
+  "conf": 0.9,
+  "query": "Can you give me a summary of my health data from the past month?"
+ },
+ {
+  "user_grant": 0.89,
+  "dtype": "Slack,Scheduling details (i.e.  meeting details)",
+  "crowd_grant": 0.67,
+  "decision": "DENY",
+  "model": "grant",
+  "conf": 0.88,
+  "query": "Can you post a message in the #team-meeting channel on Slack reminding"
+ },
+ {
+  "user_grant": 0.89,
+  "dtype": "LLM,W-2 details (e.g. income amounts, tax withholdings, employer information)",
+  "crowd_grant": 0.0,
+  "decision": "DENY",
+  "model": "grant",
+  "conf": 0.92,
+  "query": "Can you fill my tax return forms using the tax documents in the \"2025 "
+ },
+ {
+  "user_grant": 0.89,
+  "dtype": "LLM,SSN",
+  "crowd_grant": 0.0,
+  "decision": "DENY",
+  "model": "grant",
+  "conf": 0.75,
+  "query": "Can you fill my tax return forms using the tax documents in the \"2025 "
+ },
+ {
+  "user_grant": 0.21,
+  "dtype": "Travel Booking,Seating preference",
+  "crowd_grant": 1.0,
+  "decision": "GRANT",
+  "model": "deny",
+  "conf": 0.95,
+  "query": "Please book a flight for me from New York to Paris from August 10 to 2"
+ },
+ {
+  "user_grant": 0.25,
+  "dtype": "Amazon (Pharmacy),Prescription medicine list",
+  "crowd_grant": 0.8,
+  "decision": "GRANT",
+  "model": "deny",
+  "conf": 0.8,
+  "query": "Can you order medications from my prescription? "
+ },
+ {
+  "user_grant": 0.25,
+  "dtype": "Weather,User location",
+  "crowd_grant": 1.0,
+  "decision": "GRANT",
+  "model": "deny",
+  "conf": 0.88,
+  "query": "How's the weather?"
+ },
+ {
+  "user_grant": 0.25,
+  "dtype": "Tax Management,Previous tax filing details",
+  "crowd_grant": 0.67,
+  "decision": "GRANT",
+  "model": "deny",
+  "conf": 0.9,
+  "query": "Can you retrieve my tax filing details from last year?"
+ }
+]

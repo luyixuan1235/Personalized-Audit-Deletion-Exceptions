@@ -1,0 +1,23 @@
+{
+  "base FM (calibrated)": {
+    "acc": 90.70264717716711,
+    "exception": 28.05084745762712,
+    "routine": 5.827980573398088,
+    "ratio": 4.813133315108439,
+    "n_exc": 1180
+  },
+  "+ prior as offset (residual)": {
+    "acc": 90.95011337809208,
+    "exception": 27.796610169491526,
+    "routine": 5.577314742284193,
+    "ratio": 4.983869739097314,
+    "n_exc": 1180
+  },
+  "+ prior offset, deviation unregularized": {
+    "acc": 90.29055530397152,
+    "exception": 29.40677966101695,
+    "routine": 6.0629797900673665,
+    "ratio": 4.8502189812989975,
+    "n_exc": 1180
+  }
+}

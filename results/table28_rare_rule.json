@@ -1,0 +1,76 @@
+{
+  "support": {
+    "ranking CF": {
+      "bins": {
+        "lowest quartile": {
+          "n": 601,
+          "rate": 4.159733777038269,
+          "median_support": 7.0
+        },
+        "2nd": {
+          "n": 580,
+          "rate": 13.10344827586207,
+          "median_support": 15.0
+        },
+        "3rd": {
+          "n": 599,
+          "rate": 24.040066777963272,
+          "median_support": 21.0
+        },
+        "highest quartile": {
+          "n": 539,
+          "rate": 30.983302411873844,
+          "median_support": 39.0
+        }
+      },
+      "rho_support_override": -0.18988939372999344,
+      "p_support": 1.0,
+      "rho_permissive_lowsupport": 0.19922844131352976,
+      "p_perm_lowsupport": 0.0
+    },
+    "calibrated FM": {
+      "bins": {
+        "lowest quartile": {
+          "n": 601,
+          "rate": 17.13810316139767,
+          "median_support": 7.0
+        },
+        "2nd": {
+          "n": 580,
+          "rate": 12.241379310344827,
+          "median_support": 15.0
+        },
+        "3rd": {
+          "n": 599,
+          "rate": 19.36560934891486,
+          "median_support": 21.0
+        },
+        "highest quartile": {
+          "n": 539,
+          "rate": 17.625231910946194,
+          "median_support": 39.0
+        }
+      },
+      "rho_support_override": -0.014102399906536838,
+      "p_support": 0.5643333333333334,
+      "rho_permissive_lowsupport": 0.19922844131352976,
+      "p_perm_lowsupport": 0.0
+    }
+  },
+  "rule_synth": {
+    "ranking CF": {
+      "n": 127,
+      "restrictive": NaN,
+      "permissive": 88.18897637795276,
+      "ratio": NaN,
+      "rho": -0.443270763005439
+    },
+    "calibrated FM": {
+      "n": 127,
+      "restrictive": NaN,
+      "permissive": 81.10236220472441,
+      "ratio": NaN,
+      "rho": -0.3393618766219063
+    }
+  }
+}

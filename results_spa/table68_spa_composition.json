@@ -1,0 +1,20 @@
+{
+ "inverted_grant_majority": {
+  "n_users": 458,
+  "n_dec": 65401,
+  "grant_majority_share": 1.0,
+  "eor": 21.9,
+  "routine": 15.1,
+  "ratio": 1.45,
+  "n_exc": 24263
+ },
+ "matched_random": {
+  "n_users": 458,
+  "n_dec": 67194,
+  "grant_majority_share": 0.262,
+  "eor": 26.9,
+  "routine": 12.0,
+  "ratio": 2.24,
+  "n_exc": 20326
+ }
+}

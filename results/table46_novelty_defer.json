@@ -1,0 +1,42 @@
+{
+ "none": {
+  "coverage": 100.0,
+  "exception": 28.5,
+  "routine": 5.4,
+  "perm_refusals": 29.2,
+  "fgr": 16.6
+ },
+ "novelty_cell": {
+  "coverage": 9.7,
+  "exception": 21.0,
+  "routine": 2.0,
+  "perm_refusals": 21.6,
+  "fgr": 9.7
+ },
+ "novelty_domain": {
+  "coverage": 98.3,
+  "exception": 28.7,
+  "routine": 5.3,
+  "perm_refusals": 29.0,
+  "fgr": 16.4
+ },
+ "novel_and_margin_40": {
+  "coverage": 60.0,
+  "exception": 16.5,
+  "routine": 1.4,
+  "perm_refusals": 13.5,
+  "fgr": 4.7
+ },
+ "margin_40": {
+  "coverage": 60.0,
+  "exception": 17.1,
+  "routine": 1.1,
+  "perm_refusals": 15.0,
+  "fgr": 4.9
+ },
+ "_novel_share": {
+  "decisions": 90.3,
+  "exceptions": 93.7,
+  "domain_novel_decisions": 1.7
+ }
+}

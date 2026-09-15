@@ -1,0 +1,59 @@
+{
+ "CF": {
+  "macro_exc": 36.1,
+  "macro_routine": 15.3,
+  "macro_ratio": 2.36,
+  "null_mean": 1.09,
+  "null_95": [
+   0.76,
+   1.46
+  ],
+  "p_perm": 0.0,
+  "boot_ci95": [
+   1.66,
+   3.32
+  ],
+  "n_users": 181,
+  "reps_null": 2000,
+  "reps_boot": 2000,
+  "seed": 42
+ },
+ "IC": {
+  "macro_exc": 22.5,
+  "macro_routine": 12.8,
+  "macro_ratio": 1.76,
+  "null_mean": 1.28,
+  "null_95": [
+   0.86,
+   1.76
+  ],
+  "p_perm": 0.025,
+  "boot_ci95": [
+   1.21,
+   2.41
+  ],
+  "n_users": 180,
+  "reps_null": 2000,
+  "reps_boot": 2000,
+  "seed": 42
+ },
+ "IC+CF": {
+  "macro_exc": 24.0,
+  "macro_routine": 14.7,
+  "macro_ratio": 1.63,
+  "null_mean": 1.16,
+  "null_95": [
+   0.81,
+   1.59
+  ],
+  "p_perm": 0.016,
+  "boot_ci95": [
+   1.11,
+   2.3
+  ],
+  "n_users": 179,
+  "reps_null": 2000,
+  "reps_boot": 2000,
+  "seed": 42
+ }
+}

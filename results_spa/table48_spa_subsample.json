@@ -1,0 +1,14 @@
+{
+ "full": {
+  "note": "full-SPA refusal-side lens is Table app:corpora (restrictive 22.6 / permissive 24.7, ratio 1.1x)"
+ },
+ "subsampled": {
+  "restrictive": 30.742984881463613,
+  "permissive": 15.947281713344315,
+  "refusal_ratio": 0.5187291271433985,
+  "eor_exc": 24.648700673724736,
+  "eor_rout": 29.55329754601227,
+  "eor_ratio": 0.834042314071672,
+  "n": 72940
+ }
+}

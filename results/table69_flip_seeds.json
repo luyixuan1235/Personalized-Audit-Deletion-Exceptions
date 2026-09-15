@@ -1,0 +1,32 @@
+{
+ "seed=42,fold=0": {
+  "p_before": 0.752,
+  "p_after": 0.26,
+  "control_abs_shift": 0.061,
+  "follows": "19/20"
+ },
+ "seed=7,fold=1": {
+  "p_before": 0.7,
+  "p_after": 0.281,
+  "control_abs_shift": 0.05,
+  "follows": "18/20"
+ },
+ "seed=202,fold=2": {
+  "p_before": 0.684,
+  "p_after": 0.307,
+  "control_abs_shift": 0.062,
+  "follows": "18/20"
+ },
+ "seed=99,fold=3": {
+  "p_before": 0.761,
+  "p_after": 0.286,
+  "control_abs_shift": 0.058,
+  "follows": "20/20"
+ },
+ "seed=1234,fold=4": {
+  "p_before": 0.667,
+  "p_after": 0.374,
+  "control_abs_shift": 0.053,
+  "follows": "18/20"
+ }
+}

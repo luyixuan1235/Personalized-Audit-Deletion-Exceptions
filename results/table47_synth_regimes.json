@@ -1,0 +1,213 @@
+{
+ "per_seed": {
+  "unregularized_converged": [
+   {
+    "restrictive": 0.9798270893371758,
+    "permissive": 7.719928186714542,
+    "eor_exc": 7.468259895444361,
+    "eor_rout": 2.0118154239182497,
+    "insample_exc": 0.24271844660194172,
+    "n_refusals": 3221,
+    "gen_seed": 0
+   },
+   {
+    "restrictive": 0.8787346221441126,
+    "permissive": 5.949656750572083,
+    "eor_exc": 6.827880512091039,
+    "eor_rout": 1.6785022595222725,
+    "insample_exc": 0.2844950213371266,
+    "n_refusals": 3484,
+    "gen_seed": 1
+   },
+   {
+    "restrictive": 1.5579919215233697,
+    "permissive": 7.291666666666667,
+    "eor_exc": 6.547251389746757,
+    "eor_rout": 1.688116329600535,
+    "insample_exc": 0.21618282890673254,
+    "n_refusals": 3753,
+    "gen_seed": 2
+   },
+   {
+    "restrictive": 1.6034206306787813,
+    "permissive": 11.200000000000001,
+    "eor_exc": 7.129217059197964,
+    "eor_rout": 1.9399767866025535,
+    "insample_exc": 0.22278803309993636,
+    "n_refusals": 3851,
+    "gen_seed": 3
+   },
+   {
+    "restrictive": 1.6046213093709885,
+    "permissive": 8.80952380952381,
+    "eor_exc": 5.723684210526316,
+    "eor_rout": 1.4468924695823742,
+    "insample_exc": 0.08223684210526315,
+    "n_refusals": 3560,
+    "gen_seed": 4
+   }
+  ],
+  "unregularized_limited": [
+   {
+    "restrictive": 0.5187319884726225,
+    "permissive": 17.235188509874327,
+    "eor_exc": 15.982076176250933,
+    "eor_rout": 1.5647453297141944,
+    "insample_exc": 6.179985063480209,
+    "n_refusals": 3221,
+    "gen_seed": 0
+   },
+   {
+    "restrictive": 1.5231400117164615,
+    "permissive": 22.19679633867277,
+    "eor_exc": 14.15362731152205,
+    "eor_rout": 1.7753389283408652,
+    "insample_exc": 6.330014224751067,
+    "n_refusals": 3484,
+    "gen_seed": 1
+   },
+   {
+    "restrictive": 0.8078476630121176,
+    "permissive": 12.916666666666668,
+    "eor_exc": 10.06794317479926,
+    "eor_rout": 1.988968744776868,
+    "insample_exc": 4.493514515132798,
+    "n_refusals": 3753,
+    "gen_seed": 2
+   },
+   {
+    "restrictive": 1.3361838588989845,
+    "permissive": 15.4,
+    "eor_exc": 11.966900063653723,
+    "eor_rout": 2.072624772011275,
+    "insample_exc": 4.949077021005729,
+    "n_refusals": 3851,
+    "gen_seed": 3
+   },
+   {
+    "restrictive": 1.6688061617458279,
+    "permissive": 18.571428571428573,
+    "eor_exc": 10.328947368421053,
+    "eor_rout": 1.907267346267675,
+    "insample_exc": 4.9506578947368425,
+    "n_refusals": 3560,
+    "gen_seed": 4
+   }
+  ],
+  "l2_limited": [
+   {
+    "restrictive": 0.11527377521613834,
+    "permissive": 34.1113105924596,
+    "eor_exc": 37.34129947722181,
+    "eor_rout": 1.5966789078716273,
+    "insample_exc": 27.165795369678865,
+    "n_refusals": 3221,
+    "gen_seed": 0
+   },
+   {
+    "restrictive": 0.29291154071470415,
+    "permissive": 42.5629290617849,
+    "eor_exc": 34.06827880512091,
+    "eor_rout": 1.8076178179470628,
+    "insample_exc": 25.195590327169278,
+    "n_refusals": 3484,
+    "gen_seed": 1
+   },
+   {
+    "restrictive": 0.6924408540103866,
+    "permissive": 29.166666666666668,
+    "eor_exc": 22.85361334156887,
+    "eor_rout": 2.624101621260237,
+    "insample_exc": 16.182828906732553,
+    "n_refusals": 3753,
+    "gen_seed": 2
+   },
+   {
+    "restrictive": 0.8017103153393906,
+    "permissive": 36.4,
+    "eor_exc": 27.562062380649266,
+    "eor_rout": 2.6197977118222515,
+    "insample_exc": 18.9528962444303,
+    "n_refusals": 3851,
+    "gen_seed": 3
+   },
+   {
+    "restrictive": 0.5776636713735559,
+    "permissive": 38.333333333333336,
+    "eor_exc": 26.44736842105263,
+    "eor_rout": 2.1374547846103256,
+    "insample_exc": 19.24342105263158,
+    "n_refusals": 3560,
+    "gen_seed": 4
+   }
+  ]
+ },
+ "mean_sd": {
+  "unregularized_converged": {
+   "restrictive": [
+    1.3,
+    0.3
+   ],
+   "permissive": [
+    8.2,
+    1.8
+   ],
+   "eor_exc": [
+    6.7,
+    0.6
+   ],
+   "eor_rout": [
+    1.8,
+    0.2
+   ],
+   "insample_exc": [
+    0.2,
+    0.1
+   ]
+  },
+  "unregularized_limited": {
+   "restrictive": [
+    1.2,
+    0.4
+   ],
+   "permissive": [
+    17.3,
+    3.1
+   ],
+   "eor_exc": [
+    12.5,
+    2.3
+   ],
+   "eor_rout": [
+    1.9,
+    0.2
+   ],
+   "insample_exc": [
+    5.4,
+    0.7
+   ]
+  },
+  "l2_limited": {
+   "restrictive": [
+    0.5,
+    0.3
+   ],
+   "permissive": [
+    36.1,
+    4.4
+   ],
+   "eor_exc": [
+    29.7,
+    5.3
+   ],
+   "eor_rout": [
+    2.2,
+    0.4
+   ],
+   "insample_exc": [
+    21.3,
+    4.1
+   ]
+  }
+ }
+}

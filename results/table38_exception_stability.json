@@ -1,0 +1,18 @@
+{
+ "domain": {
+  "p_exc_given_precedent": 31.7,
+  "n_with": 3686,
+  "p_exc_no_precedent": 3.2,
+  "n_without": 3877,
+  "base_rate": 17.1,
+  "lift": 1.85
+ },
+ "tool_dtype": {
+  "p_exc_given_precedent": 82.9,
+  "n_with": 82,
+  "p_exc_no_precedent": 16.4,
+  "n_without": 7481,
+  "base_rate": 17.1,
+  "lift": 4.85
+ }
+}

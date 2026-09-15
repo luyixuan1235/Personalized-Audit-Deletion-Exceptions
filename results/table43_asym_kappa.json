@@ -1,0 +1,38 @@
+{
+ "none": {
+  "consent/crowd-aligned": {
+   "override": 22.0,
+   "n": 314
+  },
+  "consent/crowd-contradicting": {
+   "override": 70.3,
+   "n": 37
+  },
+  "refusal/crowd-aligned": {
+   "override": 19.0,
+   "n": 520
+  },
+  "refusal/crowd-contradicting": {
+   "override": 41.5,
+   "n": 422
+  }
+ },
+ "peruser": {
+  "consent/crowd-aligned": {
+   "override": 17.2,
+   "n": 314
+  },
+  "consent/crowd-contradicting": {
+   "override": 54.1,
+   "n": 37
+  },
+  "refusal/crowd-aligned": {
+   "override": 19.4,
+   "n": 520
+  },
+  "refusal/crowd-contradicting": {
+   "override": 43.1,
+   "n": 422
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "flipped_users": {
+  "n_users": 20,
+  "n_test": 178,
+  "mean_p_before": 0.7519858598991982,
+  "mean_p_after": 0.2597844670184299,
+  "mean_shift": -0.4922013928807683
+ },
+ "control_users": {
+  "n_test": 1405,
+  "mean_p_before": 0.6769631353502531,
+  "mean_p_after": 0.6872707447420835,
+  "mean_abs_shift": 0.060884884612600866
+ },
+ "flipped_pred_majority_follows_inverted_history": "19/20"
+}

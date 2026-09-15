@@ -1,0 +1,6 @@
+{
+ "habit_acc_released_split": 82.5,
+ "exception_share": 17.5,
+ "n": 1637,
+ "note": "mu from released training split, evaluated on released testing split; all decisions"
+}

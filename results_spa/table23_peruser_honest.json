@@ -1,0 +1,34 @@
+{
+  "atomic / ranking": {
+    "global_fgr": 26.45218069142686,
+    "peruser_fgr": 10.227508311182055,
+    "oracle_fgr": 5.662623497728455,
+    "honest_gain": 16.224672380244805,
+    "oracle_gain": 20.789557193698407,
+    "coverage": 96.12322599177197
+  },
+  "FM     / ranking": {
+    "global_fgr": 23.234740990734515,
+    "peruser_fgr": 9.396378357686693,
+    "oracle_fgr": 4.536773083372954,
+    "honest_gain": 13.838362633047822,
+    "oracle_gain": 18.697967907361562,
+    "coverage": 96.12322599177197
+  },
+  "FM     / calibrated": {
+    "global_fgr": 17.163252420127407,
+    "peruser_fgr": 10.354142583235907,
+    "oracle_fgr": 5.683829593167536,
+    "honest_gain": 6.8091098368914995,
+    "oracle_gain": 11.47942282695987,
+    "coverage": 96.12322599177197
+  },
+  "signed / calibrated": {
+    "global_fgr": 22.34890750667888,
+    "peruser_fgr": 11.272199305965014,
+    "oracle_fgr": 5.764706889292446,
+    "honest_gain": 11.076708200713867,
+    "oracle_gain": 16.584200617386436,
+    "coverage": 96.12322599177197
+  }
+}

@@ -1,0 +1,18 @@
+{
+ "agree_habit/agree_crowd": {
+  "override": 18.607498891918897,
+  "n": 133113
+ },
+ "agree_habit/contra_crowd": {
+  "override": 49.53798561729139,
+  "n": 49782
+ },
+ "contra_habit/agree_crowd": {
+  "override": 15.041795922233536,
+  "n": 42229
+ },
+ "contra_habit/contra_crowd": {
+  "override": 44.39078622798179,
+  "n": 28783
+ }
+}

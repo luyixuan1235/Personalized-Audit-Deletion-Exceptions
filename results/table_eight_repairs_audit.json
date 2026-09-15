@@ -1,0 +1,72 @@
+{
+  "repairs": [
+    {
+      "repair": "exception memory",
+      "metric": "exception override %",
+      "baseline": 28.05,
+      "value": 26.61,
+      "delta": -1.44,
+      "source": "table30_exception_memory.json",
+      "detail": "+ exception memory (wd_mem=0)",
+      "verdict": "improved"
+    },
+    {
+      "repair": "empirical-Bayes partial pooling",
+      "metric": "exception override %",
+      "baseline": 28.5,
+      "value": 28.5,
+      "delta": 0.0,
+      "source": "table35_eb_pooling.json",
+      "detail": "user_domain n0=10 vs base",
+      "verdict": "unchanged"
+    },
+    {
+      "repair": "weighted BCE",
+      "metric": "permissive-refusal override %",
+      "baseline": 30.48,
+      "value": 33.15,
+      "delta": 2.67,
+      "source": "table26_shrinkage.json",
+      "verdict": "worsened"
+    },
+    {
+      "repair": "focal loss",
+      "metric": "permissive-refusal override %",
+      "baseline": 30.48,
+      "value": 28.93,
+      "delta": -1.54,
+      "source": "table26_shrinkage.json",
+      "verdict": "improved"
+    },
+    {
+      "repair": "train longer (wd=1e-6, 150\u21922000 epochs)",
+      "metric": "refusal override %",
+      "baseline": 16.6,
+      "value": 14.01,
+      "delta": -2.59,
+      "source": "table49_regsweep.json",
+      "detail": "paper's 'best is just training longer' \u2248 2.6 points on this metric",
+      "verdict": "improved"
+    }
+  ],
+  "summary": {
+    "n_rows": 5,
+    "n_worsened": 1,
+    "n_improved": 3,
+    "best_improvement_points": 2.59,
+    "best_repair": "train longer (wd=1e-6, 150\u21922000 epochs)",
+    "paper_claim": "none beats its own baseline by more than 2.6 points; three worsen",
+    "claim_holds_on_listed_rows": true,
+    "note": "Per-user reweighting and rare-rule rows are included only if their JSON exists. Improvement = decrease in the repair's own error metric."
+  },
+  "present_tables": {
+    "table22": true,
+    "table26": true,
+    "table30": true,
+    "table35": true,
+    "table49": true,
+    "table13": true,
+    "table28": true,
+    "table43": true
+  }
+}

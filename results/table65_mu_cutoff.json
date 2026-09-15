@@ -1,0 +1,32 @@
+{
+ "cutoff=0.3": {
+  "eor": 25.8,
+  "routine": 5.5,
+  "ratio": 4.68,
+  "n_exc": 1438
+ },
+ "cutoff=0.4": {
+  "eor": 28.2,
+  "routine": 5.5,
+  "ratio": 5.16,
+  "n_exc": 1303
+ },
+ "cutoff=0.5": {
+  "eor": 28.5,
+  "routine": 5.4,
+  "ratio": 5.26,
+  "n_exc": 1293
+ },
+ "cutoff=0.6": {
+  "eor": 28.5,
+  "routine": 5.3,
+  "ratio": 5.42,
+  "n_exc": 1341
+ },
+ "cutoff=0.7": {
+  "eor": 24.8,
+  "routine": 5.5,
+  "ratio": 4.53,
+  "n_exc": 1529
+ }
+}

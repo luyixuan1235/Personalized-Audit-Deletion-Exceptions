@@ -1,0 +1,15 @@
+{
+ "composition_grant_majority_share": 29.7,
+ "none": {
+  "perm_refusals": 47.0,
+  "n_pr": 287,
+  "restr_consents": 22.5,
+  "n_rc": 258
+ },
+ "peruser": {
+  "perm_refusals": 37.9,
+  "n_pr": 293,
+  "restr_consents": 15.7,
+  "n_rc": 267
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "default prompt (o4-mini)": {
+  "n": 1619,
+  "acc": 86.3,
+  "eor_exc": 27.2,
+  "eor_rout": 11.5,
+  "conf_erasing": 0.855,
+  "conf_overall": 0.884,
+  "ECE_all": 0.025,
+  "ECE_exc": 0.148,
+  "defer60_exc": 21.0
+ },
+ "exception-aware prompt (o4-mini)": {
+  "n": 1620,
+  "acc": 88.2,
+  "eor_exc": 27.8,
+  "eor_rout": 9.2,
+  "conf_erasing": 0.86,
+  "conf_overall": 0.887,
+  "ECE_all": 0.011,
+  "ECE_exc": 0.161,
+  "defer60_exc": 22.0
+ }
+}

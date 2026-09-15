@@ -1,0 +1,48 @@
+{
+ "user_threshold_coverage": 0.5513812154696133,
+ "global": {
+  "coverage": 1.0,
+  "routine": 0.044976076555023926,
+  "exception": 0.3194122196442382,
+  "fgr": 0.14920224234583873,
+  "perm_refusals": 0.3036093418259023,
+  "restr_consents": 0.36182336182336183,
+  "exc_deferred": 0.0
+ },
+ "global_defer40": {
+  "coverage": 0.6000264445325929,
+  "routine": 0.026155878467635403,
+  "exception": 0.2204515272244356,
+  "fgr": 0.050471436494731,
+  "perm_refusals": 0.13798977853492334,
+  "restr_consents": 0.5120481927710844,
+  "exc_deferred": 0.41763341067285387
+ },
+ "peruser": {
+  "coverage": 1.0,
+  "routine": 0.06060606060606061,
+  "exception": 0.2861562258313998,
+  "fgr": 0.1203104786545925,
+  "perm_refusals": 0.24203821656050956,
+  "restr_consents": 0.4045584045584046,
+  "exc_deferred": 0.0
+ },
+ "peruser_defer25": {
+  "coverage": 0.7499669443342589,
+  "routine": 0.030271398747390398,
+  "exception": 0.21315192743764172,
+  "fgr": 0.05192107995846314,
+  "perm_refusals": 0.13513513513513514,
+  "restr_consents": 0.4537037037037037,
+  "exc_deferred": 0.3178654292343387
+ },
+ "peruser_defer40": {
+  "coverage": 0.6000264445325929,
+  "routine": 0.03374070138150903,
+  "exception": 0.18863049095607234,
+  "fgr": 0.0332244008714597,
+  "perm_refusals": 0.09090909090909091,
+  "restr_consents": 0.5384615384615384,
+  "exc_deferred": 0.4013921113689095
+ }
+}

@@ -1,0 +1,6 @@
+condition                                perm.refusals restr.consents
+natural base rate (0.69)                         27.9%          27.8%
+natural base rate (0.69) + per-user weight         29.1%          22.4%
+balanced base rate (0.50)                        42.1%          24.5%
+balanced base rate (0.50) + per-user weight         41.1%          21.2%
+ALLDONE

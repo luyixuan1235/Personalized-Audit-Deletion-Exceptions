@@ -1,0 +1,35 @@
+{
+ "model": "qwen3.7-plus",
+ "corpus": "wu",
+ "n": 1633,
+ "n_users": 180,
+ "acc": 0.9038579301898346,
+ "eor_exc": 30.04484304932735,
+ "eor_rout": 6.382978723404255,
+ "ratio": 4.707025411061285,
+ "n_exc": 223,
+ "perm_refusals": 25.423728813559322,
+ "restr_consents": 35.08771929824561,
+ "conf_while_erasing": 0.8920895522388061,
+ "conf_overall": 0.9156399265156153,
+ "ECE_all": 0.026460502143294522,
+ "ECE_exceptions": 0.21636771300448437,
+ "two_by_two": {
+  "agree_habit/agree_crowd": {
+   "override": 4.356435643564356,
+   "n": 1010
+  },
+  "agree_habit/contra_crowd": {
+   "override": 11.320754716981133,
+   "n": 371
+  },
+  "contra_habit/agree_crowd": {
+   "override": 26.865671641791046,
+   "n": 134
+  },
+  "contra_habit/contra_crowd": {
+   "override": 35.8974358974359,
+   "n": 78
+  }
+ }
+}

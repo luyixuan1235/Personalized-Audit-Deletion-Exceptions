@@ -1,0 +1,16 @@
+{
+ "none": {
+  "acc": 85.0,
+  "perm_refusals": 28.6,
+  "n_pr": 24648,
+  "restr_consents": 24.1,
+  "n_rc": 49889
+ },
+ "peruser": {
+  "acc": 83.8,
+  "perm_refusals": 19.1,
+  "n_pr": 24648,
+  "restr_consents": 21.2,
+  "n_rc": 49889
+ }
+}

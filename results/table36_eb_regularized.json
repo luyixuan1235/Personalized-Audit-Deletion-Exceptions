@@ -1,0 +1,30 @@
+{
+ "interpolating_regime(wd=1e-6)": {
+  "note": "per-cell train residual medians ~1e-4; EB offsets ~0; all metrics unchanged to 0.1 across n0 in {1,3,10} and cells in {user_domain,user_tool}",
+  "base_and_eb": {
+   "acc": 90.6,
+   "exc": 28.5,
+   "routine": 5.4,
+   "perm_refusals": 29.2
+  }
+ },
+ "regularized_regime(wd=1e-2)": {
+  "base": {
+   "acc": 77.6,
+   "exc": 49.0,
+   "routine": 16.9,
+   "perm_refusals": 44.6,
+   "restr_consents": 60.7
+  },
+  "eb_user_domain_n0=3": {
+   "acc": 85.4,
+   "exc": 42.5,
+   "routine": 8.9,
+   "perm_refusals": 37.5,
+   "restr_consents": 56.1
+  },
+  "reference_plain_low_lambda(wd=1e-6)": {
+   "exc": 28.5
+  }
+ }
+}

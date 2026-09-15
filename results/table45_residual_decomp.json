@@ -1,0 +1,24 @@
+{
+ "aggregate_exception_override": 24.7,
+ "n_exceptions": 1293,
+ "cell/k=0": {
+  "override": 25.5,
+  "n": 1225
+ },
+ "cell/k>=1": {
+  "override": 10.3,
+  "n": 68
+ },
+ "domain/k=0": {
+  "override": 54.4,
+  "n": 125
+ },
+ "domain/k=1-2": {
+  "override": 28.7,
+  "n": 348
+ },
+ "domain/k>=3": {
+  "override": 18.4,
+  "n": 820
+ }
+}

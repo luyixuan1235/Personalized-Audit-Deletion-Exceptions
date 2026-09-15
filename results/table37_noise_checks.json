@@ -1,0 +1,46 @@
+{
+ "A_exception_recurrence": {
+  "observed": 0.932,
+  "null_random_decisions": 0.795,
+  "n_exceptions_with_peer": 1241,
+  "note": "fraction of a user's exceptions sharing domain or (tool,dtype) with another exception by the same user; null = same-size random subsets of the user's decisions"
+ },
+ "B_macro_user_EOR": {
+  "CF": {
+   "macro_exc": 36.1,
+   "macro_routine": 15.3,
+   "macro_ratio": 2.36,
+   "n_users_with_exc": 106
+  },
+  "IC": {
+   "macro_exc": 22.5,
+   "macro_routine": 12.8,
+   "macro_ratio": 1.76,
+   "n_users_with_exc": 92
+  },
+  "IC+CF": {
+   "macro_exc": 24.0,
+   "macro_routine": 14.7,
+   "macro_ratio": 1.63,
+   "n_users_with_exc": 91
+  }
+ },
+ "C_confidence_calibration": {
+  "IC": {
+   "ECE_all": 0.039,
+   "ECE_exceptions": 0.135,
+   "mean_conf": 0.88,
+   "acc": 0.861,
+   "mean_conf_exc": 0.872,
+   "acc_exc": 0.742
+  },
+  "IC+CF": {
+   "ECE_all": 0.04,
+   "ECE_exceptions": 0.176,
+   "mean_conf": 0.874,
+   "acc": 0.85,
+   "mean_conf_exc": 0.864,
+   "acc_exc": 0.728
+  }
+ }
+}

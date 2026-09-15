@@ -1,0 +1,171 @@
+{
+  "primary": "m_u=train",
+  "note": "Train-only majority is computed from processed_dataset.json training answers. Evaluation-split majority is retained only as sensitivity.",
+  "CF": {
+    "exception": 37.1094,
+    "routine": 11.6242,
+    "ratio": 3.1924,
+    "n_exc": 256,
+    "n_rout": 1256,
+    "k_exc": 95,
+    "k_rout": 146,
+    "acc": 84.0608,
+    "fgr": 15.812,
+    "n_fallback_to_test": 0,
+    "cluster_CI": {
+      "exception_ci": [
+        30.3,
+        43.9
+      ],
+      "routine_ci": [
+        9.1,
+        14.3
+      ],
+      "ratio_ci": [
+        2.39,
+        4.34
+      ],
+      "exception_mean": 37.1,
+      "ratio_mean": 3.24,
+      "n_boot": 2000
+    }
+  },
+  "IC": {
+    "exception": 23.2394,
+    "routine": 11.9703,
+    "ratio": 1.9414,
+    "n_exc": 284,
+    "n_rout": 1345,
+    "k_exc": 66,
+    "k_rout": 161,
+    "acc": 86.0651,
+    "fgr": 14.9606,
+    "n_fallback_to_test": 0,
+    "cluster_CI": {
+      "exception_ci": [
+        16.8,
+        29.5
+      ],
+      "routine_ci": [
+        9.7,
+        14.5
+      ],
+      "ratio_ci": [
+        1.34,
+        2.69
+      ],
+      "exception_mean": 23.1,
+      "ratio_mean": 1.94,
+      "n_boot": 2000
+    }
+  },
+  "IC+CF": {
+    "exception": 28.2051,
+    "routine": 12.3043,
+    "ratio": 2.2923,
+    "n_exc": 273,
+    "n_rout": 1341,
+    "k_exc": 77,
+    "k_rout": 165,
+    "acc": 85.0062,
+    "fgr": 18.3468,
+    "n_fallback_to_test": 0,
+    "cluster_CI": {
+      "exception_ci": [
+        21.5,
+        35.1
+      ],
+      "routine_ci": [
+        10.0,
+        14.8
+      ],
+      "ratio_ci": [
+        1.65,
+        3.11
+      ],
+      "exception_mean": 28.3,
+      "ratio_mean": 2.32,
+      "n_boot": 2000
+    }
+  },
+  "sensitivity": {
+    "CF": {
+      "m_u=test": {
+        "exception": 37.0833,
+        "routine": 11.9497,
+        "ratio": 3.1033,
+        "n_exc": 240,
+        "n_rout": 1272,
+        "k_exc": 89,
+        "k_rout": 152,
+        "acc": 84.0608,
+        "fgr": 15.812,
+        "n_fallback_to_test": 0
+      },
+      "m_u=full": {
+        "exception": 40.1544,
+        "routine": 10.9338,
+        "ratio": 3.6725,
+        "n_exc": 259,
+        "n_rout": 1253,
+        "k_exc": 104,
+        "k_rout": 137,
+        "acc": 84.0608,
+        "fgr": 15.812,
+        "n_fallback_to_test": 0
+      }
+    },
+    "IC": {
+      "m_u=test": {
+        "exception": 25.7919,
+        "routine": 12.0739,
+        "ratio": 2.1362,
+        "n_exc": 221,
+        "n_rout": 1408,
+        "k_exc": 57,
+        "k_rout": 170,
+        "acc": 86.0651,
+        "fgr": 14.9606,
+        "n_fallback_to_test": 0
+      },
+      "m_u=full": {
+        "exception": 26.07,
+        "routine": 11.6618,
+        "ratio": 2.2355,
+        "n_exc": 257,
+        "n_rout": 1372,
+        "k_exc": 67,
+        "k_rout": 160,
+        "acc": 86.0651,
+        "fgr": 14.9606,
+        "n_fallback_to_test": 0
+      }
+    },
+    "IC+CF": {
+      "m_u=test": {
+        "exception": 27.1889,
+        "routine": 13.0995,
+        "ratio": 2.0756,
+        "n_exc": 217,
+        "n_rout": 1397,
+        "k_exc": 59,
+        "k_rout": 183,
+        "acc": 85.0062,
+        "fgr": 18.3468,
+        "n_fallback_to_test": 0
+      },
+      "m_u=full": {
+        "exception": 30.2419,
+        "routine": 12.2255,
+        "ratio": 2.4737,
+        "n_exc": 248,
+        "n_rout": 1366,
+        "k_exc": 75,
+        "k_rout": 167,
+        "acc": 85.0062,
+        "fgr": 18.3468,
+        "n_fallback_to_test": 0
+      }
+    }
+  }
+}
